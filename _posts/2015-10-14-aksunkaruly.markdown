@@ -2,7 +2,7 @@
 layout: post
 title:  "Әңгіме"
 date:   2015-10-14 09:45:45
-categories: Toleugazy
+categories: father
 ---
 
 

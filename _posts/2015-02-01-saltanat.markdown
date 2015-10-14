@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Салтанат"
+date:   2015-02-01
+categories: dombyra
+tags: youtube, dombyra
+---
+<br>
+Төлеген Момбековтың "Салтанат" күйі.
+
+Күй тарихы:  *[under construction]*
+
+<div class="unit whole align-center"><br>
+{% include youtubePlayer.html id="_AagSwYCmxM" %}
+<br></div>

@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "3 Simple Steps to become a Zen Master"
+date:   2015-05-11
+categories: essays
+tags: проза
+---
+
+<ol>
+	<li> 
+		A Zen student goes to a temple and asks how long it will take him to gain enlightenment if he joins the temple.<br>
+		"Ten years," says the Zen master. <br>
+		"Well, how about if I really work and double my effort?"<br>
+		"Twenty years."
+	</li>
+	<br>
+	<li>
+		Be here now.<br>
+		Be someplace else later.<br>
+		Is that so complicated?
+	</li>
+	<br>
+	<li>
+		A Zen student asked his master, "Is it OK to use email?"<br>
+		"Yes," replied the master, "But no attachments." 
+	</li>
+</ol>	
+
+<div class="unit whole align-center"><br>* * * * * *<br></div>

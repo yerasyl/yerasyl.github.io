@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Бес Төре"
+date:   2015-02-02
+categories: dombyra
+tags: youtube, dombyra
+---
+<br>
+Тәттімбеттің "Бес Төре" күйі.
+
+Күй тарихы:  *[under construction]*
+
+<div class="unit whole align-center"><br>
+{% include youtubePlayer.html id="uNi8KSOYD2s" %}
+<br></div>

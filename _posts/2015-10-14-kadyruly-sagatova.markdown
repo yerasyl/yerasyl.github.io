@@ -2,7 +2,7 @@
 layout: post
 title:  "Даналық ойдың шырақшысы"
 date:   2015-10-14 09:45:35
-categories: Toleugazy
+categories: father
 ---
 
 <!-- <p class = "align-right"> -->
