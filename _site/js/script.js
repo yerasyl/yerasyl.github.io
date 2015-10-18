@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     function loadDisqus() {
         if(disqus_shortname === ''){
-            disqus_shortname = '';
+            disqus_shortname = 'yerasyl';
             dt.innerHTML = 'Loading comments...';
             (function() {
                 var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

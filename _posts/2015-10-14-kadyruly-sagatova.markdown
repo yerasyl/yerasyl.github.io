@@ -3,6 +3,7 @@ layout: post
 title:  "Даналық ойдың шырақшысы"
 date:   2015-10-14 09:45:35
 categories: father
+allow_comments: false
 ---
 
 <!-- <p class = "align-right"> -->

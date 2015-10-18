@@ -27,7 +27,7 @@ layout: default
 		{% endif %}
 		{{ content }}
 	</section>
-	{% if site.disqus %}
+	{% if site.disqus and page.allow_comments != false %}
 	<footer>
 		<p><a href="#" id="showComments">Comments</a></p>
 		<div id="disqus_thread"></div>

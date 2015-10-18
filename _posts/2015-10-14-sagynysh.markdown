@@ -3,6 +3,7 @@ layout: post_center_title
 title:  "Сағыныш"
 date:   2015-10-14 09:45:55
 categories: father
+allow_comments: false
 ---
 
 <div class="unit whole align-right">
