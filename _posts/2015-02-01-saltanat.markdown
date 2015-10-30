@@ -8,14 +8,14 @@ tags: youtube, dombyra
 <br>
 Төлеген Момбековтың күйі.
 
-<div>
+<div><!--
 Күй тарихы:&nbsp;&nbsp;&nbsp;&nbsp;  
 <audio controls preload="none" style="width:480px;">
  <source src="/audio/About_Saltanat.m4a" type="audio/mp4" />
  <p>Your browser does not support HTML5 audio.</p>
  </audio>
 </div>
-<!--  <p>Аудионы жүктеп алу:
+  <p>Аудионы жүктеп алу:
  <a href="/audio/About_Saltanat.m4a">M4A</a>
  </p> -->
 
