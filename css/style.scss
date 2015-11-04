@@ -126,6 +126,17 @@ nav ul {
 			border-bottom: 4px solid #1AC9DB;
 		}
 	}
+	span{
+		padding: 15px 20px;
+		border-bottom: 4px solid transparent;
+		color: #ddd;
+		text-decoration: none;
+
+		&:hover{
+			background-color: darken($nav-back-color, 10%);
+			border-bottom: 4px solid #1AC9DB;
+		}
+	}
 }
 
 .content{

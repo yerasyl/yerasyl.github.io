@@ -45,8 +45,66 @@
       <!--[if lt IE 8]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
       <![endif]-->
+      
       <header>
   <!-- <h1 class="site-title"><a href="/">Yerasyl Abzhan</a></h1> -->
+  <!-- <audio controls preload="none" style="width:480px;">
+<source src="/audio/About_Saltanat.m4a" type="audio/mp4" />
+<p>Your browser does not support HTML5 audio.</p>
+</audio> -->
+
+<audio id="a25" preload="auto" src="/audio/twenty_five.m4a" loop="true" autobuffer>
+Unsupported in Chrome or Firefox
+</audio>
+
+<script>
+
+function setCookie(c_name,value,exdays)
+{
+    var exdate=new Date();
+    exdate.setDate(exdate.getDate() + exdays);
+    var c_value=escape(value) + ((exdays==null) ? "" : "; expires="+exdate.toUTCString());
+    document.cookie=c_name + "=" + c_value;
+}
+
+function getCookie(c_name)
+{
+    var i,x,y,ARRcookies=document.cookie.split(";");
+    for (i=0;i<ARRcookies.length;i++)
+    {
+      x=ARRcookies[i].substr(0,ARRcookies[i].indexOf("="));
+      y=ARRcookies[i].substr(ARRcookies[i].indexOf("=")+1);
+      x=x.replace(/^\s+|\s+$/g,"");
+      if (x==c_name)
+        {
+        return unescape(y);
+        }
+      }
+}
+
+var song = document.getElementsByTagName('audio')[0];
+var played = false;
+var tillPlayed = getCookie('timePlayed');
+function update()
+{
+    if(!played){
+        if(tillPlayed){
+        song.currentTime = tillPlayed;
+        song.play();
+        played = true;
+        }
+        else {
+                song.play();
+                played = true;
+        }
+    }
+
+    else {
+    setCookie('timePlayed', song.currentTime);
+    }
+}
+setInterval(update,1000);
+</script>
   <nav class="main-nav">
     <a href="#" class="opener show-on-mobiles">...</a>
     <div class="clear-opener show-on-mobiles"></div>
@@ -55,6 +113,19 @@
         <li><a href="/"><i class="fa fa-home"></i>Негізгі бет</a></li>
         <li><a href="/cats.html"><i class="fa fa-book"></i>Санаттар</a></li>
         <li class="align-right"><a href="/about.html"><i class="fa fa-info-circle"></i>Блог жайлы</a></li>
+
+        <li><span>
+          <i class="fa fa-volume-down" onclick="document.getElementById('a25').volume-=0.1"></i></span>
+        </li>
+        <li><span>
+          <i class="fa fa-play" onclick="document.getElementById('a25').play()"></i></span>
+        </li>
+        <li><span>
+          <i class="fa fa-pause" onclick="document.getElementById('a25').pause()"></i></span>
+        </li>
+        <li><span>
+          <i class="fa fa-volume-up" onclick="document.getElementById('a25').volume+=0.1"></i></span>
+        </li>
       </ul>
     </div>
   </nav>

@@ -86,3 +86,11 @@ document.addEventListener("DOMContentLoaded", function(event) {
         }
     }, 400);
 });
+
+$("audio").on("play", function(){
+    var _this = $(this);
+    $("audio").each(function(i,el){
+        if(!$(el).is(_this))
+            $(el).get(0).pause();
+    });
+});

@@ -1,5 +1,6 @@
 <header>
   <!-- <h1 class="site-title"><a href="/">{{ site.name }}</a></h1> -->
+  {% include background_audio.html %}
   <nav class="main-nav">
     <a href="#" class="opener show-on-mobiles">...</a>
     <div class="clear-opener show-on-mobiles"></div>
@@ -8,6 +9,19 @@
         <li><a href="/"><i class="fa fa-home"></i>Негізгі бет</a></li>
         <li><a href="/cats.html"><i class="fa fa-book"></i>Санаттар</a></li>
         <li class="align-right"><a href="/about.html"><i class="fa fa-info-circle"></i>Блог жайлы</a></li>
+
+        <li><span>
+          <i class="fa fa-volume-down" onclick="document.getElementById('a25').volume-=0.1"></i></span>
+        </li>
+        <li><span>
+          <i class="fa fa-play" onclick="document.getElementById('a25').play()"></i></span>
+        </li>
+        <li><span>
+          <i class="fa fa-pause" onclick="document.getElementById('a25').pause()"></i></span>
+        </li>
+        <li><span>
+          <i class="fa fa-volume-up" onclick="document.getElementById('a25').volume+=0.1"></i></span>
+        </li>
       </ul>
     </div>
   </nav>

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Әңгіме"
+title:  "Сұхбат"
 date:   2015-10-14 09:45:45
 categories: father
 allow_comments: false
