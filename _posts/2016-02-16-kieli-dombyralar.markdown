@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Киелі домбыралар"
-date:   2016-02-18
+date:   2016-02-16
 categories: kui
 visible: 0
 tags: dombyra

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Қиянат"
-date: 2016-02-17
+date: 2016-02-16
 categories: essays
 ---
 
