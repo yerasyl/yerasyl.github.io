@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Күй"
+title:  "Қазақтың күй өнері"
 date:   2016-02-16
-categories: kui
+categories: none
 tags: dombyra
 ---
 <br>
